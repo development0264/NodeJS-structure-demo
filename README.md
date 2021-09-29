@@ -68,14 +68,6 @@ SMTP_USERNAME=email-server-username
 SMTP_PASSWORD=email-server-password
 EMAIL_FROM=support@yourapp.com
 
-#rhino url
-RHINO_URL =aws_endpoint
-RHINO_KEY = rhino_api_key
-RHINO_PLOT_PATH_PREFIX=D:
-
-# Stripe configuration
-STRIPE_KEY = sk_test_samplekey
-
 #frontend url
 FRONTEND_HOST = aws_hosted_url
 FRONTEND_PORT = 3000
@@ -86,7 +78,7 @@ CLIENT_ID = google_client_id
 ## Project Structure
 
   src/
-  
+
     config/(Third party API, logger, tokens, etc. ‘s keys and other configuration)
     controllers/(controller to be called from route file)
     docs/(API documentation)
@@ -102,7 +94,7 @@ CLIENT_ID = google_client_id
 
 ## Coding standards
 
-### 1.	General standards: 
+### 1.	General standards:
 •	Use const and let instead of var.
 •	Create reusable functions which are frequently used across application.
 •	Maintain file length, it should be too lengthy, instead create chunk of functions to be called.
@@ -117,7 +109,7 @@ CLIENT_ID = google_client_id
 •	Variable & function name should be self descriptive.
 
 
-### 3.	GIT: 
+### 3.	GIT:
 •	Create separate branch based on modules and push code regularly.(DO NOT COMMIT TO MASTER DIRECTLY)
 •	Always take pull before pushing code and creating PR.
 
