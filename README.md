@@ -100,7 +100,7 @@ src/
 
 ## Coding standards
 
-# 1.	General standards: 
+### 1.	General standards: 
 •	Use const and let instead of var.
 •	Create reusable functions which are frequently used across application.
 •	Maintain file length, it should be too lengthy, instead create chunk of functions to be called.
@@ -110,24 +110,24 @@ src/
 •	Create README.md file and put required information to run your project.
 
 
-# 2.	Naming convention:
+### 2.	Naming convention:
 •	Use same naming convention across whole project. Like camel case for file name and function name, variable name could be camel case or snake case. (use same for all variable)
 •	Variable & function name should be self descriptive.
 
 
-# 3.	GIT: 
+### 3.	GIT: 
 •	Create separate branch based on modules and push code regularly.(DO NOT COMMIT TO MASTER DIRECTLY)
 •	Always take pull before pushing code and creating PR.
 
 
-# 4.	Package:
+### 4.	Package:
 •	Use standard third party library which provides regular updates and is not deprecated.
 
 
-# 5.	Imports:
+### 5.	Imports:
 •	Third party package should be first in import, then files or function to import.
 
 
-# 6.	Documentation:
+### 6.	Documentation:
 •	Create API documentation dynamically using swagger or any other library.
 
