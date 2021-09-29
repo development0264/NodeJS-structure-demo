@@ -84,22 +84,21 @@ FRONTEND_PORT = 3000
 CLIENT_ID = google_client_id
 ```
 ## Project Structure
-src/
 
-	config/(Third party API, logger, tokens, etc. ‘s keys and other configuration)
-
-	controllers/(controller to be called from route file)
-
-	docs/(API documentation)
-	middleware/(middleware to be used from route)
-	models/ (schema defination)
-	routes/ (router file to be called form server file)
-	services/ (functions to be called from controller)
-	utils/ (common functions to use across entire function)
-	validations/ (input validations)
-	js/
-		app.js
-		index.js
+  src/
+  
+    config/(Third party API, logger, tokens, etc. ‘s keys and other configuration)
+    controllers/(controller to be called from route file)
+    docs/(API documentation)
+    middleware/(middleware to be used from route)
+    models/ (schema defination)
+    routes/ (router file to be called form server file)
+    services/ (functions to be called from controller)
+    utils/ (common functions to use across entire function)
+    validations/ (input validations)
+    js/
+      app.js
+      index.js
 
 ## Coding standards
 
