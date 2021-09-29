@@ -83,3 +83,53 @@ FRONTEND_PORT = 3000
 #googleLogin
 CLIENT_ID = google_client_id
 ```
+## Project Structure
+
+  src/
+  
+    config/(Third party API, logger, tokens, etc. ‘s keys and other configuration)
+    controllers/(controller to be called from route file)
+    docs/(API documentation)
+    middleware/(middleware to be used from route)
+    models/ (schema defination)
+    routes/ (router file to be called form server file)
+    services/ (functions to be called from controller)
+    utils/ (common functions to use across entire function)
+    validations/ (input validations)
+    js/
+      app.js
+      index.js
+
+## Coding standards
+
+### 1.	General standards: 
+•	Use const and let instead of var.
+•	Create reusable functions which are frequently used across application.
+•	Maintain file length, it should be too lengthy, instead create chunk of functions to be called.
+•	Use maximum utility of ES6.
+•	Use sanitary to check for API health.
+•	Always write tests for your code.
+•	Create README.md file and put required information to run your project.
+
+
+### 2.	Naming convention:
+•	Use same naming convention across whole project. Like camel case for file name and function name, variable name could be camel case or snake case. (use same for all variable)
+•	Variable & function name should be self descriptive.
+
+
+### 3.	GIT: 
+•	Create separate branch based on modules and push code regularly.(DO NOT COMMIT TO MASTER DIRECTLY)
+•	Always take pull before pushing code and creating PR.
+
+
+### 4.	Package:
+•	Use standard third party library which provides regular updates and is not deprecated.
+
+
+### 5.	Imports:
+•	Third party package should be first in import, then files or function to import.
+
+
+### 6.	Documentation:
+•	Create API documentation dynamically using swagger or any other library.
+
