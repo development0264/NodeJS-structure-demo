@@ -85,8 +85,11 @@ CLIENT_ID = google_client_id
 ```
 ## Project Structure
 src/
+
 	config/(Third party API, logger, tokens, etc. ‘s keys and other configuration)
+
 	controllers/(controller to be called from route file)
+
 	docs/(API documentation)
 	middleware/(middleware to be used from route)
 	models/ (schema defination)
